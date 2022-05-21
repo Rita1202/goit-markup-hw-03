@@ -90,8 +90,6 @@ button {
 
 /* ================ HEADER ================  */
 .page-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
   border: 1px solid var(--border);
 }
 .header-container {
@@ -111,6 +109,8 @@ button {
 }
 .logo {
   margin-right: 90px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -127,6 +127,9 @@ button {
 }
 
 .navigation-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -143,6 +146,8 @@ button {
 }
 
 .header-contact-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -163,8 +168,8 @@ button {
 
 /* ================ HERO ================  */
 .container-hero {
-  padding-top: 200px;
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero-title {
   max-width: 696px;
