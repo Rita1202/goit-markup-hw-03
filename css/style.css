@@ -298,6 +298,7 @@ button {
 .footer .logo {
   display: inline-block;
   margin-bottom: 20px;
+  padding: 0;
 }
 
 .logo-footer-second-part {
