@@ -69,14 +69,12 @@ button {
 
 .title {
   margin-bottom: 50px;
-  text-align: center;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color-theme-light);
 }
 .subtitile {
   margin-bottom: 10px;
@@ -90,7 +88,7 @@ button {
 
 /* ================ HEADER ================  */
 .page-header {
-  border: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
 .header-container {
   display: flex;
@@ -167,10 +165,7 @@ button {
 /* ================ /HEADER ================  */
 
 /* ================ HERO ================  */
-.container-hero {
-  padding-bottom: 200px;
-  padding-top: 200px;
-}
+
 .hero-title {
   max-width: 696px;
   margin-bottom: 30px;
@@ -205,6 +200,8 @@ button {
 }
 
 .hero-page {
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-color: var(--hero-background);
   text-align: center;
 }
@@ -218,11 +215,11 @@ button {
   display: flex;
 }
 .about-us-item {
-  width: calc((100% - 90) / 4);
+  width: calc((100% - 90px) / 4);
 }
-/* .about-us-item:not(:last-child) {
+.about-us-item:not(:last-child) {
   margin-right: 30px;
-} */
+}
 .suptitle-about-us {
   font-weight: 700;
   font-size: 14px;
@@ -376,7 +373,8 @@ button {
   margin-bottom: 30px;
 }
 
-.suptitle-fortfolio {
+.suptitle-portfolio {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -395,4 +393,5 @@ button {
 .description-container-portfolio {
   padding: 24px 20px;
   border: 1px solid var(--border);
+  border-top: none;
 }
